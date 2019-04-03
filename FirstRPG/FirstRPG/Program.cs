@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Threading;
 using static System.Console;
+using static System.ConsoleColor;
 
 namespace FirstRPG
 {
@@ -15,10 +16,9 @@ namespace FirstRPG
 
             int Delay2 = 4000; //The delay that i have put in for the dialog lines
             int Delay1 = 6000; //The delay for the new parts of the game
-            int Delay4 = 8000; //The delay for the bigger lines of text
             int Delay3 = 1000; //The delay for the echos
-
-            ForegroundColor = ConsoleColor.Yellow; //This changes the color of the text
+            int Delay4 = 8000; //The delay for the bigger lines of text
+            ForegroundColor = Yellow; //This changes the color of the text
 
             WriteLine("Hello and welcome to an adventure game where you are a man who's father had passed away");
             Thread.Sleep(Delay2);
@@ -46,15 +46,15 @@ namespace FirstRPG
 
             Clear(); //this clears what's on the console to make it easier to follow the story later
 
-            ForegroundColor = ConsoleColor.Gray; //The color for the inner monologue
+            ForegroundColor = Gray; //The color for the inner monologue
 
             WriteLine("You are about to access a cave that you only heard of in legends");
             WriteLine("Behind you, you hear a voice asking you something that you can't quite make out");
             Thread.Sleep(Delay2);
 
-            ForegroundColor = ConsoleColor.Green; //Every time that you have to interract the color changes to green
+            ForegroundColor = Green; //Every time that you have to interract the color changes to green
             WriteLine("What's your name!?");
-            ForegroundColor = ConsoleColor.Cyan;
+            ForegroundColor = Cyan;
             traveler = ReadLine();
 
             ForegroundColor = ConsoleColor.White; //The color for the other characters or sounds in the game
@@ -63,26 +63,26 @@ namespace FirstRPG
             Thread.Sleep(Delay2);
 
 
-            ForegroundColor = ConsoleColor.Cyan;
+            ForegroundColor = Cyan;
             WriteLine("Yea yea i know, i'm not a child anymore!\n");
 
             Thread.Sleep(Delay2);
 
-            ForegroundColor = ConsoleColor.Gray;
+            ForegroundColor = Gray;
             WriteLine("People always acted like i was just a child since i took over my fathers place on these expeditions");
             WriteLine("no matter what i did. I wonder if i will see any of my friends in the cave so i don't feel so lonley.\n");
             Thread.Sleep(Delay1);
 
             Clear();
             //Savepoint:
-            ForegroundColor = ConsoleColor.Yellow;
+            ForegroundColor = Yellow;
 
             WriteLine("\n˜”*°•.˜”*°• Part 1 •°*”˜.•°*”˜");
             WriteLine("checkpoint\n");
             WriteLine("Press enter to continue your jurney");
             ReadLine();
 
-            ForegroundColor = ConsoleColor.Gray;
+            ForegroundColor = Gray;
 
             WriteLine("Finally were off the boat, just a long car ride left and then we should be at the entrance.");
 
@@ -100,7 +100,7 @@ namespace FirstRPG
 
             Thread.Sleep(Delay2);
 
-            ForegroundColor = ConsoleColor.Cyan;
+            ForegroundColor = Cyan;
 
             WriteLine("Wow, this place is bigger than i could ever imagen.\n");
 
@@ -110,7 +110,7 @@ namespace FirstRPG
 
             Thread.Sleep(Delay3);
 
-            ForegroundColor = ConsoleColor.White;
+            ForegroundColor = White;
 
             for (int i = 0; i < 3; i++)
             {
@@ -118,7 +118,7 @@ namespace FirstRPG
                 Thread.Sleep(Delay3);
             }
 
-            ForegroundColor = ConsoleColor.Gray;
+            ForegroundColor = Gray;
 
             Thread.Sleep(Delay2);
 
@@ -133,26 +133,26 @@ namespace FirstRPG
 
             Thread.Sleep(Delay2);
 
-            ForegroundColor = ConsoleColor.White;
+            ForegroundColor = White;
 
             WriteLine("Hi {0}. How have you been?", traveler);
 
             Thread.Sleep(Delay2);
 
-            ForegroundColor = ConsoleColor.Gray;
+            ForegroundColor = Gray;
 
             WriteLine("Everything with her is so familiar, her smile, the looks, Wait"); //This is the companion/friend that will engage in the problems during the game
 
-            ForegroundColor = ConsoleColor.Green;
+            ForegroundColor = Green;
 
             WriteLine("Hang on, aren'y you______");
             friend = ReadLine();
 
-            ForegroundColor = ConsoleColor.White;
+            ForegroundColor = White;
 
             WriteLine("Yea! How are you? been a long time since we've seen each other\n");
 
-            ForegroundColor = ConsoleColor.Gray;
+            ForegroundColor = Gray;
 
             Thread.Sleep(Delay2);
 
@@ -162,13 +162,13 @@ namespace FirstRPG
 
             WriteLine("I don't have time to figure this out now, I can hear someone yelling in the background.\n");
 
-            ForegroundColor = ConsoleColor.White;
+            ForegroundColor = White;
 
             Thread.Sleep(Delay2);
 
             WriteLine("EVERYONE! PACK YOUR BAGS, IT'S TIME TO GO!\n");
 
-            ForegroundColor = ConsoleColor.Gray;
+            ForegroundColor = Gray;
 
             Thread.Sleep(Delay2);
 
@@ -178,13 +178,13 @@ namespace FirstRPG
 
             WriteLine("the only reason that i'm not the leader is cause the people that was working for my dad didn't trust me to do it.\n");
 
-            ForegroundColor = ConsoleColor.White;
+            ForegroundColor = White;
 
             Thread.Sleep(Delay2);
 
             WriteLine("Hey, you wanna follow me to get my stuff? maybe we can talk a bit more about what's happend and all?\n");
 
-            ForegroundColor = ConsoleColor.Gray;
+            ForegroundColor = Gray;
 
             Thread.Sleep(Delay2);
 
@@ -192,7 +192,7 @@ namespace FirstRPG
 
             Thread.Sleep(Delay2);
 
-            ForegroundColor = ConsoleColor.Green;
+            ForegroundColor = Green;
 
             Wrong:
 
@@ -211,13 +211,46 @@ namespace FirstRPG
                 he remembers it now after they were talking and tries to understand why */
 
 
-                ForegroundColor = ConsoleColor.Gray;
-
-                WriteLine("Yea I would love too.");
+                ForegroundColor = Cyan;
+                WriteLine("Yea I would love too.\n");
 
                 Thread.Sleep(Delay2);
 
-                        
+                ForegroundColor = White;
+                WriteLine("Good! My things is over there and it's just a couple of things to get me by\n");
+
+                Thread.Sleep(Delay2);
+
+                ForegroundColor = Gray;
+                WriteLine("When we were on our way she talked about how we used to play together at my father mansion cause it was so big.");
+                Thread.Sleep(Delay2);
+                WriteLine("She also told me about the day that we stopped seeing each other, something about the room that my dad used to work in?");
+                Thread.Sleep(Delay2);
+                WriteLine("When she told me all of this I started to remember about how we were chasing each other around and heard a strange sound from my dads office.");
+                Thread.Sleep(Delay2);
+                WriteLine("I also remember that we wanted to take a sneak peek to see what he was working with but something went from good to really bad.");
+                Thread.Sleep(Delay2);
+                WriteLine("Before I could cope all the things that she told me about and my memories she asked me something");
+                Thread.Sleep(Delay4);
+
+                ForegroundColor = White;
+                WriteLine("Hello??\n");
+                Thread.Sleep(Delay2);
+
+                ForegroundColor = Cyan;
+                WriteLine("What? Sorry, I drifted off\n");
+                Thread.Sleep(Delay2);
+
+                ForegroundColor = White;
+                WriteLine("Can you take that bag so we can go?\n");
+                Thread.Sleep(Delay2);
+
+                ForegroundColor = Cyan;
+                WriteLine("Yea yea no problem!\n");
+                Thread.Sleep(Delay2);
+
+                ForegroundColor = Gray;
+                WriteLine("There's so many things that I wanted to know but no time for it now. We need start the jurney into the cave.");
 
                         goto storyline;
                     }
@@ -227,17 +260,17 @@ namespace FirstRPG
                 /*missing the backstory and going back to the normal rout
                 the character wont know anything unless he talks to her later*/
 
-                ForegroundColor = ConsoleColor.Gray;
+                ForegroundColor = Gray;
                 WriteLine("I need to go and get my stuff, I can meet you later though.\n");
 
                 Thread.Sleep(Delay2);
 
-                ForegroundColor = ConsoleColor.White;
+                ForegroundColor = White;
                 WriteLine("Okey just tell me if theres anything you need.\n");
 
                 Thread.Sleep(Delay2);
 
-                ForegroundColor = ConsoleColor.Gray;
+                ForegroundColor = Gray;
                 WriteLine("I didn't have time to say anything more before she started to almost run to her stuff.\nTheres still something that's missing but I can't seem to remember what.");
 
                 Thread.Sleep(Delay2);
@@ -247,7 +280,7 @@ namespace FirstRPG
 
                     else
                     {
-
+                ForegroundColor = Yellow;
                 WriteLine("You need to choose between 1 or 2, try again");
                 WriteLine("Press enter to try again");
                 ReadLine();

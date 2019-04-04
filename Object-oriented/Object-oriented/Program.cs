@@ -59,7 +59,8 @@ namespace Object_oriented
 
         class Employee: Person
         {
-            public double Salary;
+            public double Salary = 10000;
+            
 
             public Employee(double salary)
             {

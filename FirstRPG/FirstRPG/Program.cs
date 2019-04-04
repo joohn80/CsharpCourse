@@ -275,6 +275,14 @@ namespace FirstRPG
 
                 Thread.Sleep(Delay2);
 
+                WriteLine("Eitherway I need to get going before someone starts to yell at me again.");
+
+                Thread.Sleep(Delay2);
+
+                WriteLine("Hopefully theres gonna be more time for questions later.");
+
+                Thread.Sleep(Delay2);
+
                 goto storyline;
                     }
 
@@ -289,7 +297,11 @@ namespace FirstRPG
                 goto Wrong;
                     }
 
-                    storyline:
+            storyline:
+
+            WriteLine("After I went to grab my stuff we started to gather at the meetup place where the already set up lights has stopped.");
+
+            ReadKey();
 
                     /*you get to know about the person that leads the expedition instead of you and why you're there
                     you will start going in to the cavern and when they stop for a break you have the choise to talk to the third person that stood and waited for you

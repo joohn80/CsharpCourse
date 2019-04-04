@@ -1,0 +1,6 @@
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\bin\Debug\InformationInHelloworld.exe.config
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\bin\Debug\InformationInHelloworld.exe
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\bin\Debug\InformationInHelloworld.pdb
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\obj\Debug\InformationInHelloworld.csproj.CoreCompileInputs.cache
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\obj\Debug\InformationInHelloworld.exe
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\obj\Debug\InformationInHelloworld.pdb

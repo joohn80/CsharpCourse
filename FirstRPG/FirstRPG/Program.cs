@@ -295,6 +295,8 @@ namespace FirstRPG
                     you will start going in to the cavern and when they stop for a break you have the choise to talk to the third person that stood and waited for you
                     If you choose not to you wont know anything about him except for the name*/
 
+
+
             ReadLine();
 
 

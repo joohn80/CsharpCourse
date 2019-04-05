@@ -230,7 +230,7 @@ namespace FirstRPG
                 Thread.Sleep(Delay2);
                 WriteLine("I also remember that we wanted to take a sneak peek to see what he was working with but something went from good to really bad.");
                 Thread.Sleep(Delay2);
-                WriteLine("Before I could cope all the things that she told me about and my memories she asked me something");
+                WriteLine("Before I could cope all the things that she told me about and my memories she asked me something\n");
                 Thread.Sleep(Delay4);
 
                 ForegroundColor = White;
@@ -251,8 +251,9 @@ namespace FirstRPG
 
                 ForegroundColor = Gray;
                 WriteLine("There's so many things that I wanted to know but no time for it now. We need start the jurney into the cave.");
+                Thread.Sleep(Delay2);
 
-                        goto storyline;
+                goto storyline;
                     }
 
                     if (decision1 == goaway)
@@ -299,19 +300,50 @@ namespace FirstRPG
 
             storyline:
 
-            WriteLine("After I went to grab my stuff we started to gather at the meetup place where the already set up lights has stopped.");
-
-            ReadKey();
-
                     /*you get to know about the person that leads the expedition instead of you and why you're there
                     you will start going in to the cavern and when they stop for a break you have the choise to talk to the third person that stood and waited for you
                     If you choose not to you wont know anything about him except for the name*/
 
+            ForegroundColor = Gray;
+            WriteLine("After I went to grab my stuff we started to gather at the meetup place where the already set up lights started to fade away.");
+            Thread.Sleep(Delay2);
 
+            WriteLine("This cave must surely have been explored before so why is there only equipment for about 1 KM in?");
+            Thread.Sleep(Delay2);
 
+            WriteLine("Hopefully we will get more information from Jack, I mean he didn't even know my name when we first got here..");
+            Thread.Sleep(Delay2);
+
+            Clear();
+
+            ForegroundColor = Yellow;
+            WriteLine("\n˜”*°•.˜”*°• Part 2 •°*”˜.•°*”˜");
+            WriteLine("Press enter to continue into the depths of the cave!");
             ReadLine();
 
+            ForegroundColor = White;
+            WriteLine("Everybody! Come here and listen closely, this information could save your life.\n");
+            Thread.Sleep(Delay2);
 
+            ForegroundColor = Gray;
+            WriteLine("Finaly, maybe I can get some information from him, he refused to give me anything before we got here.\n");
+            Thread.Sleep(Delay2);
+
+            ForegroundColor = White;
+            WriteLine("Before we go down I'm gonna make some things clear. Never go ALONE! No one have gone down here and lived to tell the tale.\n");
+            Thread.Sleep(Delay2);
+
+            WriteLine("Last time someone went down here there were 10 people that never came back. It's our jobb to find out what happend and why.\n");
+            Thread.Sleep(Delay2);
+
+            WriteLine($"If anything happens you tell {traveler} and he will tell me okey?! I don't want anyone taking up my time so he will fix the problem");
+            Thread.Sleep(Delay2);
+
+            ReadKey();
+
+
+
+            /* At some parts of the story where you can make a desicion you will have the option of going back and change the decision you have made to get more information or not. This doesn't apply to every instance in the game */
 
             //int die = 1;
             //int save = 2;

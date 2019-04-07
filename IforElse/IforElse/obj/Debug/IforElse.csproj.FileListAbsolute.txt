@@ -1,0 +1,7 @@
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\IforElse\IforElse\obj\Debug\IforElse.csprojResolveAssemblyReference.cache
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\IforElse\IforElse\obj\Debug\IforElse.csproj.CoreCompileInputs.cache
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\IforElse\IforElse\bin\Debug\IforElse.exe.config
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\IforElse\IforElse\bin\Debug\IforElse.exe
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\IforElse\IforElse\bin\Debug\IforElse.pdb
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\IforElse\IforElse\obj\Debug\IforElse.exe
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\IforElse\IforElse\obj\Debug\IforElse.pdb

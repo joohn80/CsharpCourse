@@ -21,6 +21,7 @@ namespace FirstRPG
             ForegroundColor = Yellow; //This changes the color of the text
 
             WriteLine("Hello and welcome to an adventure game where you are a man who's father had passed away");
+
             Thread.Sleep(Delay2);
 
             WriteLine("and you have to take over his work and almost life. There will be interractions with other");
@@ -41,6 +42,26 @@ namespace FirstRPG
             WriteLine("Have fun playing this game and good luck, you will need it!\n");
             Thread.Sleep(Delay2);
 
+            //Thread.Sleep(Delay2);  Made a different approach so keeping this for context
+
+            WriteLine("and you have to take over his work and almost life. There will be interractions with other");
+            //Thread.Sleep(Delay2);
+
+            WriteLine("characters in the game that will be highlighted green, you will have the power there to either");
+            //Thread.Sleep(Delay2);
+
+            WriteLine("write something or choose a statement.\n"); //Writing \n in the end of this gives it a blank new line
+            //Thread.Sleep(Delay2);
+
+            WriteLine("The inner monolog will be gray where you get information regarding what's going on and why.");
+            //Thread.Sleep(Delay2);
+
+            WriteLine("When your character talks it will be in a blue color.\n");
+            //Thread.Sleep(Delay2);
+
+            WriteLine("Have fun playing this game and good luck, you will need it!\n");
+            //Thread.Sleep(Delay2);
+
             WriteLine("Press enter to start the game");
             ReadLine();
 
@@ -50,7 +71,10 @@ namespace FirstRPG
 
             WriteLine("You are about to access a cave that you only heard of in legends");
             WriteLine("Behind you, you hear a voice asking you something that you can't quite make out");
+
             Thread.Sleep(Delay2);
+
+            //Thread.Sleep(Delay2);
 
             ForegroundColor = Green; //Every time that you have to interract the color changes to green
             WriteLine("What's your name!?");
@@ -62,15 +86,23 @@ namespace FirstRPG
 
             Thread.Sleep(Delay2);
 
+            ForegroundColor = White; //The color for the other characters or sounds in the game
+            WriteLine("Okey {0} remember that everything can happen down there so don't get full of yourself!\n", traveler);
+
+            //Thread.Sleep(Delay2);
 
             ForegroundColor = Cyan;
             WriteLine("Yea yea i know, i'm not a child anymore!\n");
 
+
             Thread.Sleep(Delay2);
+
+            //Thread.Sleep(Delay2);
 
             ForegroundColor = Gray;
             WriteLine("People always acted like i was just a child since i took over my fathers place on these expeditions");
             WriteLine("no matter what i did. I wonder if i will see any of my friends in the cave so i don't feel so lonley.\n");
+
             Thread.Sleep(Delay1);
 
             Clear();
@@ -81,6 +113,20 @@ namespace FirstRPG
             WriteLine("checkpoint\n");
             WriteLine("Press enter to continue your jurney");
             ReadLine();
+
+            //Thread.Sleep(Delay1);
+            ForegroundColor = Yellow;
+            WriteLine("Press enter to continue");
+            ReadKey();
+            Clear();
+            //Savepoint:
+
+            ForegroundColor = Yellow;
+            WriteLine("\n˜”*°•.˜”*°• Part 1 •°*”˜.•°*”˜");
+            WriteLine("The Friend\n");
+            /*WriteLine("Press enter to continue your jurney");
+            ReadLine();
+            Thread.Sleep(Delay2);*/
 
             ForegroundColor = Gray;
 
@@ -100,6 +146,20 @@ namespace FirstRPG
 
             Thread.Sleep(Delay2);
 
+            //Thread.Sleep(Delay2);
+
+            WriteLine("When he got down to the huge entrance he could see that there was three people waiting for him.");
+
+            //Thread.Sleep(Delay2);
+
+            WriteLine("hmmm, one of them looks awfully familiar somehow, but i can't remember the name or from where.");
+
+            //Thread.Sleep(Delay2);
+
+            WriteLine("The only thing I can think about right now is the entrance and how it looks\n");
+
+            //Thread.Sleep(Delay2);
+
             ForegroundColor = Cyan;
 
             WriteLine("Wow, this place is bigger than i could ever imagen.\n");
@@ -110,12 +170,22 @@ namespace FirstRPG
 
             Thread.Sleep(Delay3);
 
+            //Thread.Sleep(Delay2);
+
+            WriteLine("Hello!\n");
+
+            //Thread.Sleep(Delay3);
+
             ForegroundColor = White;
 
             for (int i = 0; i < 3; i++)
             {
                 WriteLine("Hello..\n");
+
                 Thread.Sleep(Delay3);
+
+                //Thread.Sleep(Delay3);
+
             }
 
             ForegroundColor = Gray;
@@ -126,6 +196,12 @@ namespace FirstRPG
 
             Thread.Sleep(Delay2);
 
+            //Thread.Sleep(Delay2);
+
+            WriteLine("I should have known that there would be an echo from the yelling but because of that\none of them approced me with a happy look on her face\n");
+
+            //Thread.Sleep(Delay2);
+
             WriteLine("Press enter to continue");
             ReadLine();
 
@@ -133,11 +209,16 @@ namespace FirstRPG
 
             Thread.Sleep(Delay2);
 
+            //Thread.Sleep(Delay2);
+
             ForegroundColor = White;
 
             WriteLine("Hi {0}. How have you been?", traveler);
 
             Thread.Sleep(Delay2);
+
+            //Thread.Sleep(Delay2);
+
 
             ForegroundColor = Gray;
 
@@ -160,11 +241,19 @@ namespace FirstRPG
 
             Thread.Sleep(Delay2);
 
+            //Thread.Sleep(Delay2);
+
+            WriteLine("for how long? when was the last time i actually met her?\nEverytime i'm trying to remember, she cuts me off with some witty comments or questions", friend);
+
+            //Thread.Sleep(Delay2);
+
             WriteLine("I don't have time to figure this out now, I can hear someone yelling in the background.\n");
 
             ForegroundColor = White;
 
             Thread.Sleep(Delay2);
+
+            //Thread.Sleep(Delay2);
 
             WriteLine("EVERYONE! PACK YOUR BAGS, IT'S TIME TO GO!\n");
 
@@ -176,11 +265,19 @@ namespace FirstRPG
 
             Thread.Sleep(Delay2);
 
+            //Thread.Sleep(Delay2);
+
+            WriteLine("I didn't see who it was that was yelling but I know that it's probably one of the leders of this expedition");
+
+            //Thread.Sleep(Delay2);
+
             WriteLine("the only reason that i'm not the leader is cause the people that was working for my dad didn't trust me to do it.\n");
 
             ForegroundColor = White;
 
             Thread.Sleep(Delay2);
+
+            //Thread.Sleep(Delay2);
 
             WriteLine("Hey, you wanna follow me to get my stuff? maybe we can talk a bit more about what's happend and all?\n");
 
@@ -191,6 +288,12 @@ namespace FirstRPG
             WriteLine("Is she asking me to follow just to chat or is there something she wants to say to me?\n");
 
             Thread.Sleep(Delay2);
+
+            //Thread.Sleep(Delay2);
+
+            WriteLine("Is she asking me to follow just to chat or is there something she wants to say to me?\n");
+
+            //Thread.Sleep(Delay2);
 
             ForegroundColor = Green;
 
@@ -215,6 +318,8 @@ namespace FirstRPG
                 WriteLine("Yea I would love too.\n");
 
                 Thread.Sleep(Delay2);
+
+                //Thread.Sleep(Delay2);
 
                 ForegroundColor = White;
                 WriteLine("Good! My things is over there and it's just a couple of things to get me by\n");
@@ -253,6 +358,40 @@ namespace FirstRPG
                 WriteLine("There's so many things that I wanted to know but no time for it now. We need start the jurney into the cave.");
                 Thread.Sleep(Delay2);
 
+                //Thread.Sleep(Delay2);
+
+                ForegroundColor = Gray;
+                WriteLine("When we were on our way she talked about how we used to play together at my father mansion cause it was so big.");
+                //Thread.Sleep(Delay2);
+                WriteLine("She also told me about the day that we stopped seeing each other, something about the room that my dad used to work in?");
+                //Thread.Sleep(Delay2);
+                WriteLine("When she told me all of this I started to remember about how we were chasing each other around and heard a strange sound from my dads office.");
+                //Thread.Sleep(Delay2);
+                WriteLine("I also remember that we wanted to take a sneak peek to see what he was working with but something went from good to really bad.");
+                //Thread.Sleep(Delay2);
+                WriteLine("Before I could cope all the things that she told me about and my memories she asked me something\n");
+                //Thread.Sleep(Delay4);
+
+                ForegroundColor = White;
+                WriteLine("Hello??\n");
+                //Thread.Sleep(Delay2);
+
+                ForegroundColor = Cyan;
+                WriteLine("What? Sorry, I drifted off\n");
+                //Thread.Sleep(Delay2);
+
+                ForegroundColor = White;
+                WriteLine("Can you take that bag so we can go?\n");
+                //Thread.Sleep(Delay2);
+
+                ForegroundColor = Cyan;
+                WriteLine("Yea yea no problem!\n");
+                //Thread.Sleep(Delay2);
+
+                ForegroundColor = Gray;
+                WriteLine("There's so many things that I wanted to know but no time for it now. We need start the jurney into the cave.");
+                //Thread.Sleep(Delay2);
+
                 goto storyline;
                     }
 
@@ -266,10 +405,14 @@ namespace FirstRPG
 
                 Thread.Sleep(Delay2);
 
+                //Thread.Sleep(Delay2);
+
                 ForegroundColor = White;
                 WriteLine("Okey just tell me if theres anything you need.\n");
 
                 Thread.Sleep(Delay2);
+
+                //Thread.Sleep(Delay2);
 
                 ForegroundColor = Gray;
                 WriteLine("I didn't have time to say anything more before she started to almost run to her stuff.\nTheres still something that's missing but I can't seem to remember what.");
@@ -283,6 +426,16 @@ namespace FirstRPG
                 WriteLine("Hopefully theres gonna be more time for questions later.");
 
                 Thread.Sleep(Delay2);
+
+                //Thread.Sleep(Delay2);
+
+                WriteLine("Eitherway I need to get going before someone starts to yell at me again.");
+
+                //Thread.Sleep(Delay2);
+
+                WriteLine("Hopefully theres gonna be more time for questions later.");
+
+                //Thread.Sleep(Delay2);
 
                 goto storyline;
                     }
@@ -306,6 +459,7 @@ namespace FirstRPG
 
             ForegroundColor = Gray;
             WriteLine("After I went to grab my stuff we started to gather at the meetup place where the already set up lights started to fade away.");
+
             Thread.Sleep(Delay2);
 
             WriteLine("This cave must surely have been explored before so why is there only equipment for about 1 KM in?");
@@ -314,10 +468,23 @@ namespace FirstRPG
             WriteLine("Hopefully we will get more information from Jack, I mean he didn't even know my name when we first got here..");
             Thread.Sleep(Delay2);
 
+            //Thread.Sleep(Delay2);
+
+            WriteLine("This cave must surely have been explored before so why is there only equipment for about 1 KM in?");
+            //Thread.Sleep(Delay2);
+
+            WriteLine("Hopefully we will get more information from Jack, I mean he didn't even know my name when we first got here..\n");
+            //Thread.Sleep(Delay2);
+
+            ForegroundColor = Yellow;
+            WriteLine("Press enter to continue");
+            ReadKey();
+
             Clear();
 
             ForegroundColor = Yellow;
             WriteLine("\n˜”*°•.˜”*°• Part 2 •°*”˜.•°*”˜");
+
             WriteLine("Press enter to continue into the depths of the cave!");
             ReadLine();
 
@@ -341,28 +508,111 @@ namespace FirstRPG
 
             ReadKey();
 
+            WriteLine("The long walk\n");
+
+            ForegroundColor = White;
+            WriteLine("Everybody! Come here and listen closely, this information could save your life.\n");
+            //Thread.Sleep(Delay2);
+
+            ForegroundColor = Gray;
+            WriteLine("Finaly, maybe I can get some information from him, he refused to give me anything before we got here.\n");
+            //Thread.Sleep(Delay2);
+
+            ForegroundColor = White;
+            WriteLine("Before we go down I'm gonna make some things clear. Never go ALONE! No one have gone down here and lived to tell the tale.\n");
+            //Thread.Sleep(Delay2);
+
+            WriteLine("Last time someone went down here there were 10 people that never came back. It's our jobb to find out what happend and why.\n");
+            //Thread.Sleep(Delay2);
+
+            WriteLine($"If anything happens you tell {traveler} and he will tell me okey?! I don't want anyone taking up my time so he will fix the problem");
+            //Thread.Sleep(Delay2);
+
+            ForegroundColor = Gray;
+            WriteLine("Apparently he thinks that i'm his runner boy or something like that. I need to talk to him about all this, it's not okey!");
+            WriteLine("I will have to do it later though, seems like everyone is eager to start walking already\n");
+
+            //This is where i stopped using a sleep delay for the code to make it more readable and playable
+
+            ForegroundColor = White;
+            WriteLine($"{traveler} are you ready for this soo dangerous cave?\n");
+            WriteLine("You heard the man, we could DIE!\n");
+
+            ForegroundColor = Cyan;
+            WriteLine("Ha ha ha so funny, hell yea i'm ready for this.\n");
+            WriteLine("No one is as ready as I am right now.\n");
+
+            ForegroundColor = White;
+            WriteLine($"Hey! {traveler}, come here. I need to talk to you.\n");
+
+            ForegroundColor = Gray;
+            WriteLine("Why does he want to talk to me? Is this about the expedition?\n");
+
+            ForegroundColor = Cyan;
+            WriteLine($"On my way! {friend}, I will come back when we are done talking.\n");
+
+            ForegroundColor = Gray;
+            WriteLine("What does that old man want now, he went from not knowing my name to wanting to talk privately with me.");
+            WriteLine("Either way I need to figureout why people haven't come back from the cave. Not for him but for Me.\n");
+
+            ForegroundColor = Cyan;
+            WriteLine("Okey, what did you wanna talk about?\n");
+
+            ForegroundColor = White;
+            WriteLine("Whatever you see down there, you must remember that people get lost down there and never come back. Don't Go Alone.\n");
+            WriteLine("And if you see something down there tell me personaly ASAP.\n");
+
+            ForegroundColor = Cyan;
+            WriteLine("Yea sure no problem\n");
+
+            /*ForegroundColor = Yellow;
+            WriteLine("Press enter to continue");
+            ReadKey(); */
+
+            //This bit is removed for a smoother game experience but stays in the code as a information purpose 
+
+            ForegroundColor = Cyan;
+            WriteLine("What do you mean? Like if I see a body or something?\n");
+
+            ForegroundColor = White;
+            WriteLine("Don't worry about that, just tell me okey. It's Very important.\n");
+
+            ForegroundColor = Cyan;
+            WriteLine("If you say so.\n");
+
+            ForegroundColor = Gray;
+            WriteLine("What are we supposed to find down there that he want's me to inform him about?");
+            WriteLine("There's something that he haven't told us about and that is really scary.");​
 
 
-            /* At some parts of the story where you can make a desicion you will have the option of going back and change the decision you have made to get more information or not. This doesn't apply to every instance in the game */
 
-            //int die = 1;
-            //int save = 2;
-            //int solution;
+            ReadKey();
 
-            //Console.WriteLine("want to die?\n 1 for yes 2 for no");
-            //solution = Convert.ToInt32(Console.ReadLine());
+            /* At some parts of the story where you can make a desicion you will have the option of going back and change the decision you have made to get more information or not. This doesn't apply to every instance in the game
 
-            //if (solution == die)
-            //{
-            //    Console.WriteLine("you died\n press enter to restart from checkpoint");
-            //    Console.ReadLine();
-            //    Console.Clear();
-            //    goto Savepoint;
-            //}
+            int die = 1;
+            int save = 2;
+            int solution;
 
-            //else 
-            //    Console.WriteLine("Yay you wanted to live");
-            //    Console.ReadLine();
+            Console.WriteLine("want to die?\n 1 for yes 2 for no");
+            solution = Convert.ToInt32(Console.ReadLine());
+
+            if (solution == die)
+            {
+                Console.WriteLine("you died\n press enter to restart from checkpoint");
+                Console.ReadLine();
+                Console.Clear();
+                goto Savepoint;
+            }
+
+            else 
+                Console.WriteLine("Yay you wanted to live");
+                Console.ReadLine();
+
+
+
+            The creator of the storyline: Niazoon
+            The creator of the game: Wazzzapp (John Blom)*/
 
         }
     }

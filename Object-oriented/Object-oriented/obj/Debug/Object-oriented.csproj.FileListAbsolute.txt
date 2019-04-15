@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\Object-oriented\Object-oriented\obj\Debug\Object-oriented.csprojAssemblyReference.cache
 C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\Object-oriented\Object-oriented\obj\Debug\Object-oriented.csproj.CoreCompileInputs.cache
 C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\Object-oriented\Object-oriented\bin\Debug\Object-oriented.exe.config
@@ -5,3 +6,12 @@ C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\Object-oriented\Object-
 C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\Object-oriented\Object-oriented\bin\Debug\Object-oriented.pdb
 C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\Object-oriented\Object-oriented\obj\Debug\Object-oriented.exe
 C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\Object-oriented\Object-oriented\obj\Debug\Object-oriented.pdb
+=======
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\Object-oriented\Object-oriented\obj\Debug\Object-oriented.csprojAssemblyReference.cache
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\Object-oriented\Object-oriented\obj\Debug\Object-oriented.csproj.CoreCompileInputs.cache
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\Object-oriented\Object-oriented\bin\Debug\Object-oriented.exe.config
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\Object-oriented\Object-oriented\bin\Debug\Object-oriented.exe
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\Object-oriented\Object-oriented\bin\Debug\Object-oriented.pdb
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\Object-oriented\Object-oriented\obj\Debug\Object-oriented.exe
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\Object-oriented\Object-oriented\obj\Debug\Object-oriented.pdb
+>>>>>>> 1de7265acb7f4f9c4dfaa0a44be2721b96d31c35

@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\bin\Debug\InformationInHelloworld.exe.config
 C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\bin\Debug\InformationInHelloworld.exe
 C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\bin\Debug\InformationInHelloworld.pdb
 C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\obj\Debug\InformationInHelloworld.csproj.CoreCompileInputs.cache
 C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\obj\Debug\InformationInHelloworld.exe
 C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\obj\Debug\InformationInHelloworld.pdb
+=======
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\bin\Debug\InformationInHelloworld.exe.config
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\bin\Debug\InformationInHelloworld.exe
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\bin\Debug\InformationInHelloworld.pdb
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\obj\Debug\InformationInHelloworld.csproj.CoreCompileInputs.cache
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\obj\Debug\InformationInHelloworld.exe
+C:\Users\Deltagare\Documents\Visual Studio 2017\Projects\InformationInHelloworld\InformationInHelloworld\obj\Debug\InformationInHelloworld.pdb
+>>>>>>> 1de7265acb7f4f9c4dfaa0a44be2721b96d31c35

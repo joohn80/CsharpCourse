@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -77,8 +76,7 @@ namespace Object_oriented
         }
     }
 }
-=======
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -156,4 +154,3 @@ namespace Object_oriented
         }
     }
 }
->>>>>>> 1de7265acb7f4f9c4dfaa0a44be2721b96d31c35
